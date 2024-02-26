@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <script src="./build.css"></script> -->
+</head>
+<body>
+    
+    <main class="max-w-2xl mx-auto p-2">
+
+        <h1 class="text-2xl text-blue-500 font-bold items-center mt-4">To Do List</h1>
+        
+            <form id="todolist_form" class="flex items-center gap-1 mt-4">
+            <input type="text" placeholder="Enter To Do List Item" name="todoItem" 
+            id="toDo_item" class="border border-gray-300 rounded p-2 flex-grow" />
+            <button type= "submit" id="my-button" class="bg-blue-500 text-white px-5 py-2 rounded">Add Task</button>
+        </form>
+
+        <div class="details-container mt-10">
+
+            <ul class="mt-4 flex flex-col gap-1">
+
+                <li id="task_list" class="text-gray-500 font-semibold">
+                    
+                </li>
+                                
+            
+            </ul>
+            <!-- message to show errors -->
+        </div>
+
+    </main>   
+
+    <script src="./todo.js"></script> 
+   
+
+</body>
+    
+</body>
+</html>
